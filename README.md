@@ -15,7 +15,7 @@ Optional mirroring of the webcam feed.
 Easy-to-use and light-weight.
 
 
-Prerequisites
+<h2>Prerequisites</h2>
 
 To run the project, you'll need:
 
@@ -24,34 +24,9 @@ OpenCV
 Dlib
 Numpy
 Install the Required Libraries
-Install the required Python libraries via pip:
 
-bash
-Copy
-Edit
-pip install opencv-python numpy dlib
-Project Setup
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/KaranJangid8656/face_landmark_detection.git
-cd face_landmark_detection
-2. Download the Pre-trained Model
-This project requires the shape_predictor_68_face_landmarks.dat file for landmark detection. You can download it from here.
+<h2>How It Works</h2>
 
-After downloading the file, place it in the project directory.
-
-3. Running the Project
-Run the following Python script to start detecting facial landmarks:
-
-bash
-Copy
-Edit
-python face_landmark_detection.py
-The webcam feed will appear, and you should see the landmarks highlighted on your face.
-
-How It Works
 Capture Video Feed: The script uses OpenCV's cv2.VideoCapture to access the webcam.
 Face Detection: The Dlib's frontal face detector (dlib.get_frontal_face_detector()) is used to detect faces in each frame.
 Landmark Prediction: Once a face is detected, the dlib.shape_predictor() is used to predict the 68 facial landmarks.
