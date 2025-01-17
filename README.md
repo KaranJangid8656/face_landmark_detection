@@ -5,14 +5,18 @@
 
 Face Landmark Detection is a computer vision project that uses the Dlib library to detect and visualize key facial landmarks on a live video feed. This project identifies 68 facial landmarks, including the eyes, nose, mouth, and jawline, and marks them on the user's face in real-time. The project leverages OpenCV for capturing the video feed and Dlib for detecting and predicting the facial landmarks.
 
-Features
+<h2>Features</h2>
+
 Real-time face landmark detection using a webcam.
 68 facial landmarks detected and visualized.
 Face detection using Dlib's frontal face detector.
 Landmark visualization with circles on the detected points.
 Optional mirroring of the webcam feed.
 Easy-to-use and light-weight.
+
+
 Prerequisites
+
 To run the project, you'll need:
 
 Python 3.x
