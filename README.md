@@ -28,10 +28,12 @@ To run the project, you'll need:
 
 <h2>How It Works</h2>
 
-- `Capture Video Feed`: The script uses OpenCV's cv2.VideoCapture to access the webcam.
-- `Face Detection`: The Dlib's frontal face detector (dlib.get_frontal_face_detector()) is used to detect faces in each frame.
--`Landmark Prediction`: Once a face is detected, the dlib.shape_predictor() is used to predict the 68 facial landmarks.
--`Visualize Landmarks`: For each detected landmark, a small circle is drawn on the face to visualize the points.
+
+- **Capture Video Feed**: The script uses OpenCV's `cv2.VideoCapture` to access the webcam.
+- **Face Detection**: The Dlib's frontal face detector (`dlib.get_frontal_face_detector()`) is used to detect faces in each frame.
+- **Landmark Prediction**: Once a face is detected, the `dlib.shape_predictor()` is used to predict the 68 facial landmarks.
+- **Visualize Landmarks**: For each detected landmark, a small circle is drawn on the face to visualize the points.
+
 
 
 Change Detection Quality: You can experiment with different face detection and landmark prediction models in Dlib.
