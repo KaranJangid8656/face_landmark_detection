@@ -4,9 +4,6 @@
 
 
 
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/98a1f7c3-171d-4d08-93ec-33994e4718d2" alt="Screenshot" width="500"/>
-</p>
 
 
 <h2>Overview</h2>
